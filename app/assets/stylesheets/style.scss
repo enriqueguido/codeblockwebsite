@@ -1741,9 +1741,9 @@
     border-radius: 8px 0 0 8px !important
   }
 
-  .box-shadow-v1 {
-    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .05), 0 2px 5px 0 rgba(0, 0, 0, .02)
-  }
+  // .box-shadow-v1 {
+  //   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .05), 0 2px 5px 0 rgba(0, 0, 0, .02)
+  // }
 
   .box-shadow-v1--onHover {
     -webkit-transition: .3s;
@@ -5098,7 +5098,7 @@
   .text-white {
     color: #faeeff !important
   }
-
+  
   .text-black {
     color: #111 !important
   }
