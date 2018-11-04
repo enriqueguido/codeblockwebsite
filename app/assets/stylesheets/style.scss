@@ -887,8 +887,8 @@
   }
 
   .btn-purple:hover {
-    background: #372049;
-    color: #fff
+    background: #333895;
+    color: #333895
   }
 
   .btn-pink {
@@ -1680,7 +1680,8 @@
   }
 
   .u-rounded-50 {
-    border-radius: 1000em
+    border-radius: 1000em;
+    border: 1px solid white;
   }
 
   .u-rounded-left-50 {
@@ -3150,7 +3151,7 @@
   }
 
   .u-py-100 {
-    padding-top: 6.25rem !important;
+    padding-top: 5.25rem !important;
     padding-bottom: 6.25rem !important
   }
 
