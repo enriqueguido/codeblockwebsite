@@ -2,12 +2,12 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-12 text-center text-white">
-					<h1 class="text-purple">
+					<h1 class="text-white">
 						Latest Blog Posts
 					</h1>
 					<div class="u-h-4 u-w-50 bg-white rounded mx-auto my-4"></div>
-					<p class="lead text-purple">
-						Read and get updated on how we progress.
+					<p class="lead text-white">
+						Read and get updated on news, tutorials, & my progress as a developer.
 					</p>
 				</div>
 			</div>
@@ -19,15 +19,19 @@
 				<div class="col-lg-8">
 					<article class="post box-shadow-v2 bg-white">
                         <div class="post__img">
-                        <%=image_tag("blog/1_1.jpg", alt: "")%>
-                        
-							
+                        <%=image_tag("blog/app-developer.jpg", alt: "")%>
+
+
 						</div>
 						<div class="post__content">
 							<div class="post__date box-shadow-v2 d-inline-block text-center px-2 px-md-4 py-2 rounded">
 								<h4 class="u-fs-20 u-fs-md-36">
-									<span class="text-primary"> 20</span>
-									<span class="d-block u-fs-16">March 2017</span>
+									<span class="text-primary">
+										<%= Time.now.strftime("%d") %>
+									</span>
+									<span class="d-block u-fs-16">
+										<%= Time.now.strftime("%B/%Y") %>
+									</span>
 								</h4>
 							</div>
 							<div class="post__share">
@@ -45,12 +49,12 @@
 								</div>
 							</div>
 							<h2 class="post__title">
-								The Important Standard Post Format
+								Blog & tutorials coming soon
 							</h2>
 							<ul class="list-inline u-my-20">
 								<li class="list-inline-item mr-3">
 									<a href="#">By
-										<strong>Admin</strong>
+										<strong>Guido Maximiliano Enrique</strong>
 									</a>
 								</li>
 								<li class="list-inline-item mr-3">
@@ -59,7 +63,7 @@
 									</a>
 								</li>
 								<li class="list-inline-item">
-									<a href="#">8
+									<a href="#">0
 										<strong>Comments</strong>
 									</a>
 								</li>
@@ -70,7 +74,7 @@
 							</p>
 							<a href="#" class="btn btn-purple u-mt-20">Read More</a>
 						</div>
-					</article>
+					<!-- </article>
 					<article class="post box-shadow-v2 bg-white">
 						<div class="post__img">
 						<%=image_tag("blog/1_2.jpg", alt: "")%>
@@ -174,7 +178,7 @@
 							</p>
 							<a href="#" class="btn btn-purple u-mt-20">Read More</a>
 						</div>
-					</article>
+					</article> -->
 				</div>
 				<aside id="sidebar" class="col-lg-4">
 					<div class="widget sidebar-widget">
@@ -232,23 +236,26 @@
 							</div>
 							<div class="widget-content">
 								<div id="tab-1" class="post__tab-content active">
-                                    <div class="media align-items-center mb-3">
-                                    <%=image_tag("blog/1.jpg", class: "u-w-70 rounded-circle u-h-70 mr-3", alt: "")%>
-										
+                  <div class="media align-items-center mb-3">
+                      <%=image_tag("blog/app-developer.jpg", class: "u-w-70 rounded-circle u-h-70 mr-3", alt: "")%>
 										<div class="media-body">
 											<h5>
 												<a href="#">The Important Standard Post Format</a>
 											</h5>
-											<span class="u-fs-15">Nov 28, 2017</span>
+											<span class="u-fs-15">
+												<%= Time.now.strftime("%b %d, %Y") %>
+											</span>
 										</div>
 									</div>
 									<div class="media align-items-center mb-3">
                                     <%=image_tag("blog/2.jpg", class: "u-w-70 rounded-circle u-h-70 mr-3", alt: "")%>
 										<div class="media-body">
 											<h5>
-												<a href="#">Standard Post Format</a>
+												<%= Time.now.strftime("%b %d, %Y") %>
 											</h5>
-											<span class="u-fs-15">Nov 28, 2017</span>
+											<span class="u-fs-15">
+												<%= Time.now.strftime("%b %d, %Y") %>
+											</span>
 										</div>
 									</div>
 									<div class="media align-items-center mb-3">
@@ -257,16 +264,20 @@
 											<h5>
 												<a href="#">The Important Standard Post Format</a>
 											</h5>
-											<span class="u-fs-15">Nov 28, 2017</span>
+											<span class="u-fs-15">
+												<%= Time.now.strftime("%b %d, %Y") %>
+											</span>
 										</div>
 									</div>
 									<div class="media align-items-center mb-3">
-                                    <%=image_tag("blog/1_1.jpg", class: "u-w-70 rounded-circle u-h-70 mr-3", alt: "")%>
+                                    <%=image_tag("blog/app-developer.jpg", class: "u-w-70 rounded-circle u-h-70 mr-3", alt: "")%>
 										<div class="media-body">
 											<h5>
 												<a href="#">Some words about my vacation</a>
 											</h5>
-											<span class="u-fs-15">Nov 28, 2017</span>
+											<span class="u-fs-15">
+												<%= Time.now.strftime("%b %d, %Y") %>
+											</span>
 										</div>
 									</div>
 								</div>
@@ -277,7 +288,9 @@
 											<h5>
 												<a href="#">Standard Post Format</a>
 											</h5>
-											<span class="u-fs-15">Nov 28, 2017</span>
+											<span class="u-fs-15">
+												<%= Time.now.strftime("%b %d, %Y") %>
+											</span>
 										</div>
 									</div>
 									<div class="media align-items-center mb-3">
@@ -286,25 +299,31 @@
 											<h5>
 												<a href="#">The Important Standard Post Format</a>
 											</h5>
-											<span class="u-fs-15">Nov 28, 2017</span>
+											<span class="u-fs-15">
+												<%= Time.now.strftime("%b %d, %Y") %>
+											</span>
 										</div>
 									</div>
 									<div class="media align-items-center mb-3">
-                                    <%=image_tag("blog/1_1.jpg", class: "u-w-70 rounded-circle u-h-70 mr-3", alt: "")%>
+                      <%=image_tag("blog/app-developer.jpg", class: "u-w-70 rounded-circle u-h-70 mr-3", alt: "")%>
 										<div class="media-body">
 											<h5>
 												<a href="#">Some words about my vacation</a>
 											</h5>
-											<span class="u-fs-15">Nov 28, 2017</span>
+											<span class="u-fs-15">
+												<%= Time.now.strftime("%b %d, %Y") %>
+											</span>
 										</div>
 									</div>
 									<div class="media align-items-center mb-3">
-                                    <%=image_tag("blog/1.jpg", class: "u-w-70 rounded-circle u-h-70 mr-3", alt: "")%>
+                                    <%=image_tag("blog/app-developer.jpg", class: "u-w-70 rounded-circle u-h-70 mr-3", alt: "")%>
 										<div class="media-body">
 											<h5>
 												<a href="#">The Important Standard Post Format</a>
 											</h5>
-											<span class="u-fs-15">Nov 28, 2017</span>
+											<span class="u-fs-15">
+												<%= Time.now.strftime("%b %d, %Y") %>
+											</span>
 										</div>
 									</div>
 								</div>

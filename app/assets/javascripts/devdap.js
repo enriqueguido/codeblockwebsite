@@ -101,13 +101,13 @@
 			var windowHeight = $(window).height();
 			$(window).on('scroll', function() {
 				if ($(this).scrollTop() > (windowHeight + 500) ){
-					$('.scroll-top.active').removeClass('active');
-					$('.scroll-top').addClass('active');
+					$('.scroll-top, col-md-6.active').removeClass('active');
+					$('.scroll-top, .col-md-6').addClass('active');
 				} else {
-					$('.scroll-top').removeClass('active');
+					$('.scroll-top, .col-md-6').removeClass('active');
 				}
 			});
-			$('.scroll-top').on('click', function() {
+			$('.scroll-top, .col-md-6').on('click', function() {
 				$("html, body").animate({
 						scrollTop: 0
 				}, 600);
