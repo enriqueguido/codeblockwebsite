@@ -18,12 +18,12 @@
   background-image: image-url("svg/bgslide-2.svg")
 }
 .header-bck-img{
-  background-image: image-url("about/contact.jpg");
+  background-image: image-url("about/architectural-design.jpg");
   background-size:cover;
   background-position:"top center";
 }
 .parallax{
-    background-image: image-url("about/hero-all.jpg");
+    background-image: image-url("about/messanger.jpg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -275,7 +275,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background: #5d4970;
+    background: #333895;
     z-index: -1
   }
 
@@ -823,7 +823,7 @@
   }
 
   .btn-white:hover {
-    background: #f1baf3;
+    background: #007bff;
     color: #fff !important
   }
 
@@ -1239,7 +1239,7 @@
   .widget_recent_entries,
   .widget_rss,
   .widget_text {
-    border: 2px solid #faeeff;
+    border: 2px solid #d2e8fd;
     background: #fff;
     margin-bottom: 40px;
     border-radius: 4px;

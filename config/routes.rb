@@ -1,13 +1,14 @@
 Rails.application.routes.draw do
-  
 
-  
+
+
 
   root 'home#index'
   get 'home/index', to: 'home#index'
 
   #Headers
   get 'headers/gradient'
+  get 'header/aboutme'
   get 'headers/solidcolor'
   get 'headers/parallax'
   get 'headers/typing'
