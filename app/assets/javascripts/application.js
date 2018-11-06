@@ -13,4 +13,6 @@
 //= require bootstrap
 //= require bundle
 //= require devdap
-//= require_tree
+//= require jquery3
+//= require jquery_ujs
+//= require_tree .
