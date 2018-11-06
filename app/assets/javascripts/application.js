@@ -13,5 +13,5 @@
 //= require_tree .
 //= require bundle
 //= require devdap
-//= jquery
+//= require jquery
 //= require bootstrap
