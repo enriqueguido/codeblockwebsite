@@ -10,9 +10,7 @@
 // Read Sprockets README (https://github.com/rails/sprockets#sprockets-directives) for details
 // about supported directives.
 //
-//= require bootstrap
+//= require_tree .
 //= require bundle
 //= require devdap
-//= require jquery3
-//= require jquery_ujs
-//= require_tree .
+//= require bootstrap
