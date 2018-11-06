@@ -34,6 +34,7 @@ gem 'jbuilder', '~> 2.5'
 gem 'nio4r'
 gem 'ffi'
 gem 'gmaps4rails'
+gem 'jquery-rails'
 
 
 # Use Capistrano for deployment
