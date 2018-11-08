@@ -1,6 +1,6 @@
 (function($){
   'use strict';
-  var devdap = {
+  var codeblock = {
     // Inverse header background when scroll
     hederInverse: function(){
       $(window).on('scroll', function() {
@@ -42,12 +42,17 @@
 			},
 
 			hamburgarToggler: function(){
-              $('.js-hamburger').on('click', function(){
-                $(this).toggleClass('is-active');
-              });
+        $('.js-hamburger').on('click', function(){
+          $(this).toggleClass('is-active');
+        });
 			},
 
-
+      // $('js-hamburger').on('click', function(e){
+      //   var subject = $('#navbarNav');
+      //   if(e.target.id != subject.attr('id')){
+      //     subject.fadeOutUp();
+      //   }
+      // });
 
 			parallaxInit: function(){
 				if($(window).width() > 768 ){
@@ -161,6 +166,7 @@
 				});
 		},
 
+// Typing text function
 			typingText: function(){
 				if($('[data-type]').data('type') === undefined){
 					return false;
@@ -228,24 +234,24 @@
 
 		// Init the main function
     init: function(){
-				devdap.hederInverse();
-				devdap.carouselsInit();
-				devdap.parallaxInit();
-				devdap.hamburgarToggler();
-				devdap.accordianToggleIcon();
-				devdap.slickMargin();
-				devdap.scrollTo();
-				devdap.tabsToggle();
-				devdap.scrollTop();
+				codeblock.hederInverse();
+				codeblock.carouselsInit();
+				codeblock.parallaxInit();
+				codeblock.hamburgarToggler();
+				codeblock.accordianToggleIcon();
+				codeblock.slickMargin();
+				codeblock.scrollTo();
+				codeblock.tabsToggle();
+				codeblock.scrollTop();
 				if(typeof wow == 'function'){
-					devdap.wowInit();
+					codeblock.wowInit();
 				}
-				devdap.postTab();
-				devdap.isotop();
+				codeblock.postTab();
+				codeblock.isotop();
 
-			devdap.typingText();
-			devdap.BSprogressBar();
-			devdap.countDown();
+			codeblock.typingText();
+			codeblock.BSprogressBar();
+			codeblock.countDown();
 
     }
 
@@ -256,6 +262,6 @@
 
 
 
-  devdap.init();
+  codeblock.init();
 
 }(jQuery));
