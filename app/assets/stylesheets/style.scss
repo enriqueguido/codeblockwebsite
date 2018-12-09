@@ -18,19 +18,19 @@
   background-image: image-url("svg/bgslide-2.svg")
 }
 .header-bck-img{
-  background-image: image-url("about/architectural-design.jpg");
+  background-image: image-url("about/about-me.jpg");
   background-size:cover;
   background-position:"top center";
 }
 .parallax{
-    background-image: image-url("about/messanger.jpg");
+    background-image: image-url("about/about-me-parallax-background.jpg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 .parallax-about{
-  background-image: image-url("about/hero3.jpg");
+  background-image: image-url("about/about-me-background.jpg");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -4517,6 +4517,10 @@
 
   .bg-black {
     background: #000 !important
+  }
+
+  .bg-white-about {
+    background: #03468e !important
   }
 
   .bg-white {

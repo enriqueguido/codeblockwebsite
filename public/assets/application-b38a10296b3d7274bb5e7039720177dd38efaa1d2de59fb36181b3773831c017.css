@@ -14103,7 +14103,7 @@ button.bg-dark:focus {
 /* line 17, /usr/local/lib/ruby/gems/2.4.0/gems/bootstrap-4.1.3/assets/stylesheets/bootstrap/utilities/_spacing.scss */
 .pr-4,
 .px-4 {
-  padding-right: 1.5rem !important;
+  padding-right: 3rem !important;
 }
 
 /* line 21, /usr/local/lib/ruby/gems/2.4.0/gems/bootstrap-4.1.3/assets/stylesheets/bootstrap/utilities/_spacing.scss */
@@ -14115,7 +14115,7 @@ button.bg-dark:focus {
 /* line 25, /usr/local/lib/ruby/gems/2.4.0/gems/bootstrap-4.1.3/assets/stylesheets/bootstrap/utilities/_spacing.scss */
 .pl-4,
 .px-4 {
-  padding-left: 1.5rem !important;
+  padding-left: 3rem !important;
 }
 
 /* line 12, /usr/local/lib/ruby/gems/2.4.0/gems/bootstrap-4.1.3/assets/stylesheets/bootstrap/utilities/_spacing.scss */
@@ -14888,7 +14888,7 @@ button.bg-dark:focus {
   /* line 17, /usr/local/lib/ruby/gems/2.4.0/gems/bootstrap-4.1.3/assets/stylesheets/bootstrap/utilities/_spacing.scss */
   .pr-md-5,
   .px-md-5 {
-    padding-right: 3rem !important;
+    padding-right: 2rem !important;
   }
 
   /* line 21, /usr/local/lib/ruby/gems/2.4.0/gems/bootstrap-4.1.3/assets/stylesheets/bootstrap/utilities/_spacing.scss */
@@ -14900,7 +14900,7 @@ button.bg-dark:focus {
   /* line 25, /usr/local/lib/ruby/gems/2.4.0/gems/bootstrap-4.1.3/assets/stylesheets/bootstrap/utilities/_spacing.scss */
   .pl-md-5,
   .px-md-5 {
-    padding-left: 3rem !important;
+    padding-left: 2rem !important;
   }
 
   /* line 33, /usr/local/lib/ruby/gems/2.4.0/gems/bootstrap-4.1.3/assets/stylesheets/bootstrap/utilities/_spacing.scss */
