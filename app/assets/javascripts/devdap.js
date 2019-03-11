@@ -47,11 +47,27 @@
         });
 			},
 
-      // $('js-hamburger').on('click', function(e){
+
+      // hamburgarToggler: function(e){
+      //   var subject = $('#navbarNav');
+      //   if(e.target.id != subject.attr('id')) {
+      //     subject.fadeOutUp();
+      //   } else {
+      //     $('.js-hamburger').on('click', function(){
+      //       $(this).toggleClass('is-active');
+      //     });
+      //   }
+      // },
+
+      // $('.js-hamburger').on('click', function(e){
       //   var subject = $('#navbarNav');
       //   if(e.target.id != subject.attr('id')){
       //     subject.fadeOutUp();
       //   }
+      // });
+
+      // $('.hamburger-box').on('click', function(){
+      //   $('#navbarNav').fadeOutUp();
       // });
 
 			parallaxInit: function(){

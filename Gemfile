@@ -40,7 +40,6 @@ gem 'ffi'
 gem 'gmaps4rails'
 gem 'jquery-rails'
 
-
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
