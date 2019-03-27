@@ -1,7 +1,7 @@
 <header class="header header-shrink header-inverse fixed-top">
    <div class="container">
       <nav class="navbar navbar-expand-lg px-md-0">
-          <%= image_tag("favicon/CodeBlockLogoWhite.png", :class => "white-logo", :alt => "", :size => "35x35", :style => "position: relative;left: -5px;top: -5px;") %>
+        <%= image_tag("favicon/CodeBlockLogoWhite.png", :class => "white-logo", :alt => "", :size => "35x35", :style => "position: relative;left: -5px;top: -5px;") %>
          <a class="navbar-brand" href="#">
             <span class="logo-default">
                <h2 class="text-white">CodeBlock</h2>
@@ -28,11 +28,16 @@
                   <i class="fa fa-chevron-down u-fs-12 ml-1"></i>
                   </a>
                   <div class="dropdown-menu box-shadow-v2" aria-labelledby="navbarDropdown">
-                    <%= link_to 'About Me', pages_About_path, class: "dropdown-item" %>
-                       <!-- <a class="dropdown-item" href="https://devdap.com/themes-preview/live/devdap/LandingPages/app/index.html">About Me</a> -->
-                     <!-- <a class="dropdown-item" href="https://devdap.com/themes-preview/live/devdap/LandingPages/software/index.html">Software</a>
-                     <a class="dropdown-item" href="https://devdap.com/themes-preview/live/devdap/LandingPages/seo/index.html">SEO</a>
-                     <a class="dropdown-item" href="https://devdap.com/themes-preview/live/devdap/LandingPages/admin/index.html">Exclusive Admin</a> -->
+                     <%= link_to 'About Me', pages_About_path, class: "dropdown-item" %>
+                     <!-- <#%= link_to 'Portfolio', pages_Portfolio_path, class: "dropdown-item" %> -->
+                     <!-- <#%= link_to 'Portfolio Details', pages_PortfolioDetails_path, class: "dropdown-item" %> -->
+                     <!-- <#%= link_to 'Blog', pages_Blog_path, class: "dropdown-item" %> -->
+                     <!-- <#%= link_to 'Blog Details', pages_BlogDetails_path, class: "dropdown-item" %> -->
+                     <!-- <#%= link_to 'Login', pages_Login_path, class: "dropdown-item" %> -->
+                     <!-- <#%= link_to 'Register', pages_Register_path, class: "dropdown-item" %> -->
+                     <!-- <#%= link_to 'Coming Soon', pages_CommingSoon_path, class: "dropdown-item" %> -->
+                     <!-- <#%= link_to 'Contact', pages_Contact_path, class: "dropdown-item" %> -->
+                     <!-- <#%= link_to '404', pages_error_path, class: "dropdown-item" %> -->
                   </div>
                </li>
                <li class="nav-item dropdown">
@@ -41,63 +46,33 @@
                   <i class="fa fa-chevron-down u-fs-12 ml-1"></i>
                   </a>
                   <div class="dropdown-menu box-shadow-v2" aria-labelledby="navbarDropdown">
-                     <%= link_to 'GoWithMe', headers_gradient_path, class: "dropdown-item" %>
-                     <%= link_to 'Wobblee', headers_solidcolor_path, class: "dropdown-item" %>
-                     <%= link_to 'Kiz', headers_parallax_path, class: "dropdown-item" %>
-                     <%= link_to 'Coming Soon', headers_typing_path, class: "dropdown-item" %>
-                     <%#= link_to 'Background Image', headers_backgroundimage_path, class: "dropdown-item" %>
+                     <%= link_to 'WellCare', 'https://salty-atoll-75507.herokuapp.com/', class: "dropdown-item" %>
+                     <%= link_to 'Sparkly', 'https://www.sparklyhouse.com', class: "dropdown-item" %>
+                     <%= link_to 'GoWithMe', 'https://github.com/enriqueguido/with_me', class: "dropdown-item" %>
+                     <%= link_to 'Wobblee', 'https://github.com/galinap684/wobbleeapp-', class: "dropdown-item" %>
+                     <%= link_to 'KeddyMe', '#{index_path} project-section', class: "dropdown-item" %>
+                     <!-- <#%= link_to 'Form', pages_Form_path, class: "dropdown-item" %> -->
+                     <!-- <#%= link_to 'Footers', pages_Footers_path, class: "dropdown-item" %> -->
+                     <!-- <#%= link_to 'Tabs', pages_Tabs_path, class: "dropdown-item" %> -->
+                     <!-- <#%= link_to 'Accordion', pages_Accordion_path, class: "dropdown-item" %> -->
+                     <!-- <#%= link_to 'Progressbar', pages_Progressbar_path, class: "dropdown-item" %> -->
+                     <!-- <#%= link_to 'Countdown', pages_Countdown_path, class: "dropdown-item" %> -->
+                     <!-- <#%= link_to 'Buttons', pages_Buttons_path, class: "dropdown-item" %> -->
+                     <!-- <#%= link_to 'ListStyle', pages_ListStyle_path, class: "dropdown-item" %> -->
+                     <!-- <#%= link_to 'Feature', pages_Feature_path, class: "dropdown-item" %> -->
                   </div>
                </li>
-               <!-- <li class="nav-item dropdown"> -->
-                  <!-- <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> -->
-                  <!-- pages -->
-                  <!-- <i class="fa fa-chevron-down u-fs-12 ml-1"></i> -->
-                  <!-- </a> -->
-                  <!-- <div class="dropdown-menu box-shadow-v2 dropdown__col-2" aria-labelledby="navbarDropdown"> -->
-                     <%#= link_to 'About', pages_About_path, class: "dropdown-item" %>
-                     <%#= link_to 'Portfolio', pages_Portfolio_path, class: "dropdown-item" %>
-                     <%#= link_to 'Portfolio Details', pages_PortfolioDetails_path, class: "dropdown-item" %>
-                     <%#= link_to 'Blog', pages_Blog_path, class: "dropdown-item" %>
-                     <%#= link_to 'Blog Details', pages_BlogDetails_path, class: "dropdown-item" %>
-                     <%#= link_to 'Login', pages_Login_path, class: "dropdown-item" %>
-                     <%#= link_to 'Register', pages_Register_path, class: "dropdown-item" %>
-                     <%#= link_to 'Coming Soon', pages_CommingSoon_path, class: "dropdown-item" %>
-                     <%#= link_to 'Contact', pages_Contact_path, class: "dropdown-item" %>
-                     <%#= link_to '404', pages_error_path, class: "dropdown-item" %>
-                  <!-- </div> -->
-               <!-- </li>  -->
-               <!-- <li class="nav-item dropdown"> -->
-                  <!-- <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> -->
-                  <!-- elements -->
-                  <!-- <i class="fa fa-chevron-down u-fs-12 ml-1"></i> -->
-                  <!-- </a> -->
-                  <!-- <div class="dropdown-menu box-shadow-v2 dropdown__col-2" aria-labelledby="navbarDropdown"> -->
-                     <%#= link_to 'Testmonial', pages_Testmonial_path, class: "dropdown-item" %>
-                     <%#= link_to 'Gallery', pages_Gallery_path, class: "dropdown-item" %>
-                     <%#= link_to 'Team', pages_Team_path, class: "dropdown-item" %>
-                     <%#= link_to 'Client', pages_Client_path, class: "dropdown-item" %>
-                     <%#= link_to 'SignUp', pages_Register_path, class: "dropdown-item" %>
-                     <%#= link_to 'Form', pages_Form_path, class: "dropdown-item" %>
-                     <%#= link_to 'Footers', pages_Footers_path, class: "dropdown-item" %>
-                     <%#= link_to 'Tabs', pages_Tabs_path, class: "dropdown-item" %>
-                     <%#= link_to 'Accordion', pages_Accordion_path, class: "dropdown-item" %>
-                     <%#= link_to 'Progressbar', pages_Progressbar_path, class: "dropdown-item" %>
-                     <%#= link_to 'Countdown', pages_Countdown_path, class: "dropdown-item" %>
-                     <%#= link_to 'Buttons', pages_Buttons_path, class: "dropdown-item" %>
-                     <%#= link_to 'ListStyle', pages_ListStyle_path, class: "dropdown-item" %>
-                     <%#= link_to 'Feature', pages_Feature_path, class: "dropdown-item" %>
-                  <!-- </div> -->
-               <!-- </li> -->
                <li class="nav-item dropdown">
+                 <!-- <#%= link_to 'Blog', pages_BlogDetails_path, class: "nav-link" %> -->
                   <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Blog
-                  <i class="fa fa-chevron-down u-fs-12 ml-1"></i>
+                    Blog
+                  <!-- <i class="fa fa-chevron-down u-fs-12 ml-1"></i> -->
                   </a>
-                  <div class="dropdown-menu box-shadow-v2" aria-labelledby="navbarDropdown">
-                     <%= link_to 'Blog', pages_Blog_path, class: "dropdown-item" %>
-                     <!-- <%= link_to 'Blog Details', pages_BlogDetails_path, class: "dropdown-item" %>
-                     <%= link_to 'Blog Grid', pages_BlogGrid_path, class: "dropdown-item" %> -->
-                  </div>
+                  <!-- <div class="dropdown-menu box-shadow-v2" aria-labelledby="navbarDropdown"> -->
+                     <!-- <#%= link_to 'Blog Single', pages_Blog_path, class: "dropdown-item" %> -->
+                     <!-- <#%= link_to 'Blog Details', pages_BlogDetails_path, class: "dropdown-item" %> -->
+                     <!-- <#%= link_to 'Blog Grid', pages_BlogGrid_path, class: "dropdown-item" %> -->
+                  <!-- </div> -->
                </li>
                <li class="nav-item dropdown">
                   <%= link_to 'Contact', pages_Contact_path, class: "nav-link" %>

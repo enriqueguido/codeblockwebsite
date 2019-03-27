@@ -1,73 +1,73 @@
 <footer>
-      <section class="bg-white">
+      <section class="bg-bb-blue">
             <div class="container">
                   <div class="row">
                         <div class="col-lg-4">
-                              <h2>CodeBlock</h2>
+                              <h2 class="text-blue-home">CodeBlock</h2>
                               <p class="u-my-40">
                                     Sign up to receive tech news and blog updates.
                               </p>
-                              <form class="form-inline">
-                                    <div class="input-group box-shadow-v1 u-rounded-50 bg-white u-of-hidden">
-                                          <div class="input-group-addon bg-white border-0 pl-3 pr-3 icon-padding pr-0">
+                              <form action="https://formspree.io/codeblock.life@gmail.com" method="POST" class="form-inline">
+                                    <div class="input-group box-shadow-v1 u-rounded-50 bg-bb-blue u-of-hidden">
+                                          <div class="input-group-addon bg-bb-blue border-0 pl-3 pr-3 icon-padding pr-0">
                                                 <span class="icon icon-Mail text-primary"></span>
                                           </div>
-                                          <input type="text" class="form-control border-0 email", style="padding:2rem" placeholder="Enter your email">
-                                          <button type="submit" class="input-group-btn btn bg-white">
+                                          <input type="text" class="form-control border-0 u-p-32" placeholder="Enter your email">
+                                          <button type="submit" class="input-group-btn btn bg-bb-blue">
                                                 <span class="icon icon-Arrow text-primary"></span>
                                           </button>
                                     </div>
                               </form>
                         </div>
                         <div class="col-lg-2 ml-auto">
-                              <h4>Useful Links</h4>
-                              <div class="u-h-4 u-w-50 bg-purple rounded mt-3 u-mb-40"></div>
+                              <h4 class="text-blue-home">Useful Links</h4>
+                              <div class="u-h-4 u-w-50 bg-pink rounded mt-3 u-mb-40"></div>
                               <ul class="list-unstyled u-lh-2">
                                     <li>
-                                          <a href="#">About Me </a>
+                                          <a href="#">Home </a>
                                     </li>
                                     <li>
-                                          <a href="#">Testimonials </a>
+                                       <%= link_to 'About Me', pages_About_path %>
                                     </li>
                                     <li>
-                                          <a href="#">Blog </a>
+                                          <a href="" data-scrollto="project-section">Projects </a>
                                     </li>
                                     <li>
-                                          <a href="#">Contact Me </a>
+                                          <a href="">Blog  </a>
                                     </li>
                                     <li>
-                                          <a href="#">News </a>
+                                        <%= link_to 'Contact Me', pages_Contact_path %>
                                     </li>
                               </ul>
                         </div>
                         <div class="col-lg-3 ml-auto">
-                              <h4>Contact Info</h4>
-                              <div class="u-h-4 u-w-50 bg-purple rounded mt-3 u-mb-40"></div>
+                              <h4 class="text-blue-home">Contact Info</h4>
+                              <div class="u-h-4 u-w-50 bg-pink rounded mt-3 u-mb-40"></div>
                               <ul class="list-unstyled">
                                     <li class="mb-2">
                                           <span class="icon icon-Phone2 text-primary mr-2"></span> 954. 982. 5585
                                     </li>
                                     <li class="mb-2">
                                           <span class="icon icon-Mail text-primary mr-2"></span>
-                                          <a href="info@codeblock.life">info@codeblock.life</a>
+                                          <a href="">info.codeblock.life</a>
                                     </li>
                                     <li class="mb-2">
                                           <span class="icon icon-Pointer text-primary mr-2"></span> Pompano Beach, Florida
                                     </li>
                               </ul>
-                              <ul class="list-inline social social-rounded social-white mt-4">
+                              <ul class="list-inline social social-rounded social-blue mt-4">
                                     <li class="list-inline-item">
-                                          <a href="https://github.com/enriqueguido">
-                                                <i class="fa fa-github"></i>
+                                          <a href="https://www.facebook.com/guidomaximiliano.enrique">
+                                                <i class="fa fa-facebook"></i>
                                           </a>
                                     </li>
                                     <li class="list-inline-item">
-                                          <a href="#">
+                                          <a href="https://twitter.com/maxstang21">
                                                 <i class="fa fa-twitter"></i>
                                           </a>
                                     </li>
                                     <li class="list-inline-item">
-                                          <a href="#">
+                                          <a href="">
                                                 <i class="fa fa-google-plus"></i>
                                           </a>
                                     </li>
@@ -84,10 +84,10 @@
       <div class="container text-center p-4">
             <p class="mb-0">
                   CodeBlock
-                  <span class="icon icon-Heart text-primary mx-2"></span> &#x000A9 <span class="mx-2"> <%= Date.today.year %> All Rights Reserved</span> 
+                  <span class="text-primary mx-2"></span> <%= Time.current.year %>
             </p>
       </div>
 </footer>
-<div class="scroll-top bg-white box-shadow-v1">
-      <i class="fa fa-angle-up" aria-hidden="true"></i>
+<div class="scroll-top bg-btn-blue box-shadow-v1">
+      <i class="fa fa-angle-up white-arrow" aria-hidden="true"></i>
 </div>
