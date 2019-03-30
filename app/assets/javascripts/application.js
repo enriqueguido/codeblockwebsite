@@ -15,3 +15,4 @@
 //= require bootstrap
 //= require bundle
 //= require devdap
+//= require_tree .
