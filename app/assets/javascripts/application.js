@@ -10,9 +10,9 @@
 // Read Sprockets README (https://github.com/rails/sprockets#sprockets-directives) for details
 // about supported directives.
 //
-//= require devdap
 //= require jquery
 //= require jquery-migrate-min
 //= require bootstrap
 //= require bundle
+//= require devdap
 //= require_tree .

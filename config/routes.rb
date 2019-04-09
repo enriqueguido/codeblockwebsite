@@ -5,6 +5,7 @@ Rails.application.routes.draw do
 
   root 'home#index'
   get 'home/index', to: 'home#index'
+  get '/check.txt', to: proc {[200, {}, ['it_works']]}
 
   #Headers
   get 'headers/gradient'
